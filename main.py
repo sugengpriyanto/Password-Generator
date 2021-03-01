@@ -28,7 +28,7 @@ for char in range(1, nr_numbers + 1):
 random.shuffle(password_char)
 for char in password_char:
   hard_password += char
-print(f"Your Password is: {hard_password}")
+print(f"Your Generated Password is: {hard_password}")
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
